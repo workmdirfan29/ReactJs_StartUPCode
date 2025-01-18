@@ -1,0 +1,51 @@
+/* General styling for the navbar */
+nav {
+  background-color: #333;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 1px;
+}
+
+nav h1 span {
+  color: green;
+}
+
+/* Styling the links container */
+.urls {
+  display: flex;
+  gap: 2rem;
+}
+
+/* Styling individual NavLinks */
+nav .urls a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;  /* Border radius */
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add a hover effect on the links */
+nav .urls a:hover {
+  background-color: #555;  /* Light gray background on hover */
+}
+
+/* Active link styling */
+nav .urls .active {
+  background-color: #444;  /* Darker gray background when active */
+  color: white;
+  font-weight: bold;
+}
