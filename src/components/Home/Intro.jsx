@@ -4,7 +4,6 @@ const Intro = () => {
   return (
     <div style={{backgroundColor : "blue", height: "100vh"}}>
       Intro
-
     </div>
   )
 }
