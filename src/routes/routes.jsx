@@ -4,6 +4,7 @@ import Home from "../components/Home/Home";
 import About from "../components/About";
 import Blog from "../components/Blog"
 import Service from "../components/Service";
+import Contact from "../components/Contact";
 
 const meraRouterHai = createBrowserRouter([
     {
@@ -25,8 +26,11 @@ const meraRouterHai = createBrowserRouter([
             {
                 path : "blog",
                 element : <Blog />
+            },
+            {
+                path : "contact",
+                element : <Contact />
             }
-          
         ]
     },
 ]);
