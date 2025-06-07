@@ -4,7 +4,7 @@ import Home from "../components/Home/Home";
 import About from "../components/About";
 import Blog from "../components/Blog"
 import Service from "../components/Service";
-import Contact from "../components/Contact";
+import Contact from "../components/Contact/Contact";
 
 const meraRouterHai = createBrowserRouter([
     {
