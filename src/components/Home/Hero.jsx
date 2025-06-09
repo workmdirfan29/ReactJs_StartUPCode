@@ -3,7 +3,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div style={{backgroundColor : "green", height: "100vh"}}>
-      Hero
+     Landing page will be comming soon !
     </div>
   )
 }
