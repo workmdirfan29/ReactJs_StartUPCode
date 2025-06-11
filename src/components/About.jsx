@@ -5,7 +5,6 @@ const About = () => {
   return (
     <div>
       <h1>About Us</h1>
-      <Intro />
       <section>
         <h2>Our Mission</h2>
         <p>We are a passionate team dedicated to creating meaningful products that simplify everyday life. Our mission is to provide innovative solutions and exceptional experiences that empower people to achieve their goals effortlessly.</p>
