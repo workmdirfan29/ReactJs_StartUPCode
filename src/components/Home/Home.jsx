@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from "./Hero"
 import Intro from './Intro'
-import Service from '../Service'
+import Service from '../Service/Service'
 function Home() {
   return (
     <main >

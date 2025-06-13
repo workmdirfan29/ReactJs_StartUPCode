@@ -1,0 +1,59 @@
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.services-container h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+.services-container section {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-container section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services-container h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #008008;
+}
+
+.services-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+@media screen and (max-width: 768px) {
+  .services-container {
+    padding: 30px 15px;
+  }
+
+  .services-container h1 {
+    font-size: 2.2rem;
+  }
+
+  .services-container h2 {
+    font-size: 1.5rem;
+  }
+
+  .services-container p {
+    font-size: 1rem;
+  }
+}
