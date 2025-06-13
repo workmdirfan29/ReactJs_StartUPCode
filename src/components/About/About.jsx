@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css'; // Make sure this path is correct based on your folder structure
+import './About.css';
 import Intro from '../Home/Intro';
 
 const About = () => {
@@ -41,6 +41,7 @@ const About = () => {
           making a difference through technology. Together, we strive to create a better future for everyone.
         </p>
       </section>
+
     </div>
   );
 };
