@@ -1,0 +1,43 @@
+.intro-container {
+  background-color: #555555;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-content {
+  text-align: center;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.intro-title {
+  font-size: 5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.intro-title span{
+    color: #008000;
+}
+.intro-subtitle {
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.intro-button {
+  background-color: #008000;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 600;
+}
+
+.intro-button:hover {
+  background-color: #026f02;
+}

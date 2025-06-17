@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import './Hero.css';
 
-const Hero = () => {
+const Intro = () => {
   return (
-    <div style={{backgroundColor : "white", height: "100vh"}}>
-     <h1>Landing page will be comming soon !</h1>
+    <div className="intro-container">
+      <div className="intro-content">
+        <h1 className="intro-title">Welcome to React<span>ify</span></h1>
+        <p className="intro-subtitle">
+          Build fast, modern, and powerful web experiences with Reactify.
+        </p>
+        <button className="intro-button">Get Started</button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Intro;
