@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from "react-router";
 import App from "../App";
 import Home from "../components/Home/Home";
 import About from "../components/About/About";
-import Blog from "../components/Blog"
+import Blog from "../components/Blog/Blog"
 import Service from "../components/Service/Service";
 import Contact from "../components/Contact/Contact";
 
