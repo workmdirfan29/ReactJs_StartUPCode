@@ -36,7 +36,7 @@ const Blog = () => {
   return (
     <div className={`blog-wrapper ${darkMode ? 'dark' : ''}`}>
       <div className="blog-header">
-        <h1 className="blog-title">Reactify Blog</h1>
+        <h1 className="blog-title">Reactify <span>Blog</span></h1>
         <div className="blog-controls">
           <input
             type="text"

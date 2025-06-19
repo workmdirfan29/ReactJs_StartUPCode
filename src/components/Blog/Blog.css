@@ -28,7 +28,9 @@
   align-items: center;
   margin-bottom: 2rem;
 }
-
+.blog-title span{
+  color: #008000;
+}
 .blog-title {
   font-size: 2.5rem;
   margin: 0;
